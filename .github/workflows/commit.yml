@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: durgenious/external-workflow
+          repository: durgenious/external-workflows
           ref: f122d90d632bb976751a55eb11d78e1ed69406d9
       - name: Greetings
         run: echo "$(<greeting.txt)"
